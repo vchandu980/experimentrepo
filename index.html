@@ -8,9 +8,44 @@ margin:0px;
 padding:0px;
 box-sizing:border-box;
 }
+    h1{
+        font-weight:300;
+        font-family:sans-serif;
+        font-style:italic;
+        color:red;
+    }
+    .main{
+        width:900px;
+        margin:0 auto;
+        padding:20px;
+        border:2px solid green;
+    }
+    .listcontainer{
+        width:100%;
+        padding:10px 10px 10px 20px;
+       
+        
+    }
+    ul li{
+        font-size:25px;
+        font-family:monospace;
+        list-style-type: circle;
+        list-style-position:inside;
+    }
 </style>
 </head>
 <body>
-<h1> welcome to github tutorial </h1>
+    <div class="main">
+        <h1> welcome to github tutorial </h1>
+        <div class="listcontainer">
+        <p>Below are the topics we are going to cover in this tutorial</p><br>
+            <ul>
+            <li>Github Introduction</li>
+            <li>Important Github commands</li>
+            <li>Introduction to Git</li>
+            <li>forking,cloning,commiting,push,pull terminologies</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
